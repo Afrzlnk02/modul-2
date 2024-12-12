@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width+device-width, initial-scale=1.0">
+        <title>Radio Button</title>
+    </head>
+    <body>
+        <h1>From pilih jenis pembayaran</h1>
+        <form method="get">
+            <div>
+                <label for="input">pembayaran</label>
+            </div>
+            <div>
+                <input type="radio" id="paymentMethod" name="paymentMethod" value="credit card"/>credit card<br/>
+                <input type="radio" id="paymentMethod" name="paymentMethod" value="debit" checked/>debit<br/>
+                <input type="radio" id="paymentMethod" name="paymentMethod" value="transfer"/>transfer<br/>
+                <input type="radio" id="paymentMethod" name="paymentMethod" value="ovo"/>ovo<br/>
+            </div>
+            <div>
+                <button name="save" value="simpan">simpan</button>
+                <button type="reset" name="cancel" value="batal">batal</button>
+            </div>
+        </form>
+    </body>
+</html>
